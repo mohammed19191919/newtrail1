@@ -1,0 +1,178 @@
+
+*{
+    font-family: 'Times New Roman', Times, serif;
+}
+
+body{
+    margin:auto;
+}
+.horizontalline{
+    height: 5px;
+    color: black;
+    width: 100%;
+}
+.name-head{
+    display: flex;
+    justify-content: space-around;
+    background-color: rgb(128, 128, 128);
+    margin: 0 auto;
+    position: sticky;
+    top: 0px;
+}
+.homeproperty{
+    font-size: 20px;
+    color: black;
+    padding-top: 18px;
+    margin-right: -150px;
+    text-decoration: none;
+}
+.homeproperty:hover, .homeproperty:focus{
+    color: white;
+    transform: scale(1.5);
+    transition: 0.2s all ease-in-out;
+}
+.name-head .Unorderd-lists{
+    display: flex;
+    justify-content: space-around;
+}
+.property{
+    text-decoration: none;
+    padding-right: 20px;
+    color: black;
+    font-size: 18px;
+
+}
+.Unorderd-lists .property:hover, .Unorderd-lists .property:focus{
+    color: white;
+    transform: scale(1.5);
+    transition: 0.2s all ease-in-out;
+}
+.name-head .Unorderd-lists li{
+    list-style: none;
+}
+.name-head .Unorderd-lists li a{
+    text-decoration: none;
+    padding-right: 20px;
+    color: black;
+}
+.name-head .Unorderd-lists li a:first{
+    color: white;
+}
+.name-head .Unorderd-lists li a:hover,
+.name-head .Unorderd-lists li a:hover{
+    color: white;
+}
+.start-about{
+    display: flex;
+    justify-content: space-around;
+    background-color: rgb(128, 128, 128);
+    margin-top: 100px;
+}
+.myimage{
+    height: 320px;
+    width: 270px;
+    margin-left: 300px;
+    margin-top: -70px;
+
+}
+
+.horizontal-line{
+    height: 3px;
+    width:100%;
+    color: black;
+}
+.next-home-head{
+    padding-left: 50px;
+}
+.Start-about-all{
+    padding-left: 20px;
+    padding-right: 30px;
+}
+.empity{
+    height:100px;
+    width: 100%;
+    background:linear-gradient(45deg, green, yellow, red);
+    margin-top: 0px;
+
+}
+.links{
+  height: 100px;
+  width: 100%;
+  background-color: wheat;
+  text-align: center;
+}
+.Falinkidin1{
+    color: rgb(116, 163, 216);
+    height: 50px;
+    width: 40px;
+    padding-right: 20px;
+    padding-top: 20px;
+}
+.Fatelegram{
+    color: rgb(116, 163, 216);
+    height: 50px;
+    width: 40px;
+    padding-top: 20px;
+}
+.readmore{
+    height: 40px;
+    width: 120px;
+    border: none;
+    border-radius: 50px;
+    outline: none;
+    background-color: aqua;
+    color: blue;
+    font-size: 16px;
+}
+.readmorlink{
+    text-decoration: none;
+    color: blue;
+}
+.readmore:hover,
+.readmore:focus{
+    color:white;
+    background-color: brown;
+    transform: scale(1.2);
+    transition: 0.2s ease-in;
+}
+
+.alllinks{
+    text-align: center;
+    height: 200px;
+    width: inherit;
+    margin-top: 10px;
+    
+}
+.alllinks h2{
+    padding-top: 20px;
+}
+.link{
+  display: flex;
+  justify-content: center;
+  gap: 10px;
+}
+.linkdinabout{
+    height: 50px;
+    width: 50px;
+    color: blue;
+}
+.pheading{
+    text-align: center;
+}
+.pheading button{
+   border: none;
+   border-radius: 50px;
+   width: 70px;
+   height: 35px;
+   background-color: indianred;
+   color: black;
+   transition: 0.1s all ease-in-out;
+}
+.pheading button:hover, .pheading button:focus{
+    transform: scale(1.12);
+    color:wheat;
+    background-color: red;
+}
+.pheading button a{
+    text-decoration: none;
+}
